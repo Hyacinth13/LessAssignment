@@ -1,0 +1,31 @@
+.GreenBorder {
+  border-color: #20e167;
+  border-width: 20px;
+  border-style: dashed;
+}
+.TanBorder {
+  border-color: #f9dda2;
+}
+#format1 {
+  backrougnd-color: #2261ff;
+  border-color: #f9dda2;
+}
+#format2 {
+  background-color: #002eee;
+  border-radius: 88px;
+  border-color: #20e167;
+  border-width: 20px;
+  border-style: dashed;
+}
+#format3 {
+  background-color: #003fff;
+  border-color: #20e167;
+  border-width: 20px;
+  border-style: dashed;
+}
+.format {
+  height: 400px;
+  width: 200px;
+  display: inline-block;
+  background-color: #003fff;
+}

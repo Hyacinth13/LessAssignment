@@ -1,0 +1,35 @@
+@import 'var';
+
+.GreenBorder {
+	border-color: #20e167;
+	border-width: 20px;
+	border-style: dashed;
+}
+.TanBorder {
+	border-color: #f9dda2;
+}
+.RoundEdge(@radius: 0) {
+	border-radius: @radius;
+}
+
+#format1 {
+	backrougnd-color: @basicTheme + #222;
+	.TanBorder;
+}
+
+#format2{
+	background-color: @basicTheme - #111;
+	.RoundEdge(88px); 
+	.GreenBorder;
+}
+#format3{
+	background-color: @moreColor;
+	.GreenBorder
+
+}
+.format {
+	height: 400px;
+	width: 200px;
+	display: inline-block;
+	background-color: @basicTheme;
+}
