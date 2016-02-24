@@ -7,6 +7,8 @@
 }
 .TanBorder {
 	border-color: #f9dda2;
+	border-style: solid;
+	border-width: 15;
 }
 .RoundEdge(@radius: 0) {
 	border-radius: @radius;
@@ -21,6 +23,7 @@
 	background-color: @basicTheme - #111;
 	.RoundEdge(88px); 
 	.GreenBorder;
+
 }
 #format3{
 	background-color: @moreColor;
@@ -32,4 +35,23 @@
 	width: 200px;
 	display: inline-block;
 	background-color: @basicTheme;
+}
+h1 {
+	color: #0066ff;
+	margin: auto;
+
+
+}
+#headline {
+	background-color: #ffcc00;
+	vertical-align: center;
+	width: 100%;
+	text-align: center;
+	margin: 30px;
+}
+h2{
+	color: @textColor;
+	&:hover{
+		color: #ff8000;
+		}  
 }
